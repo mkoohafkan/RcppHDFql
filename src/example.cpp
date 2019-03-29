@@ -4,8 +4,8 @@
 // [[Rcpp::export]]
 int foo(std::string test)
 {
-// display HDFql version in use
-std::cout << "HDFql version: "<< HDFql::Version << std::endl;
-HDFql::execute(test);
-return EXIT_SUCCESS;
+	// display HDFql version in use
+	std::cout << "HDFql version: "<< HDFql::Version << std::endl;
+	HDFql::execute(test);
+	return EXIT_SUCCESS;
 }

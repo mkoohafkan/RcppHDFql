@@ -1,2 +1,3 @@
-PKG_CPPFLAGS = -I../inst/include/HDFql/ -L./HDFql -lHDFql
-LDLIBS = -ldl
+PKG_CPPFLAGS = -I../inst/include/HDFql/
+PKG_LIBS = ./HDFql/libHDFql.a
+LDLIBS = -fopenmp -ldl
